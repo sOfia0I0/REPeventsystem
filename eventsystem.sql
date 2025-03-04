@@ -22,7 +22,7 @@
 DROP TABLE IF EXISTS `eventlocations`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `eventlocations` (
+CREATE TABLE `eve` (
   `id` int NOT NULL AUTO_INCREMENT,
   `locationame` varchar(135) NOT NULL,
   `capacity` int NOT NULL,
