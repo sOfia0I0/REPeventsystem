@@ -51,7 +51,7 @@ DROP TABLE IF EXISTS `eventss`;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `eventss` (
   `id` int NOT NULL AUTO_INCREMENT,
-  `eventname` varchar(35) NOT NULL,
+  `eventname` varchar(50) NOT NULL,
   `eventdate` date NOT NULL,
   `descriptionn` text NOT NULL,
   `location_id` int NOT NULL,
